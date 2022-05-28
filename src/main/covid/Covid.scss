@@ -1,0 +1,80 @@
+.covid {
+  // .covid__container
+
+  &__container {
+    background-color: #211f54;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    padding: 0;
+    padding-right: 74px;
+    gap: 72px;
+  }
+
+  // .covid__decor
+
+  &__decor {
+  }
+
+  // .covid__text
+  &__content {
+  }
+
+  &__text {
+    text-align: start;
+    max-width: 500px;
+  }
+
+  // .covid__title-small
+
+  &__title-small {
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 112%;
+    letter-spacing: 1.6px;
+    text-transform: uppercase;
+    margin-bottom: 18px;
+    color: #ffffff;
+  }
+
+  // .covid__title
+
+  &__title {
+    margin-bottom: 18px;
+  }
+
+  // .covid__description
+
+  &__description {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 143%;
+    color: #ffffff;
+  }
+
+  // .covid__action
+
+  &__action {
+    display: flex;
+    flex-direction: row;
+    margin-top: 12px;
+    flex: 1 1 50%;
+    align-items: flex-end;
+  }
+
+  // .covid__button
+
+  &__button {
+    margin-right: 28px;
+    margin-bottom: 10px;
+  }
+
+  // .covid__call
+
+  &__call {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}

@@ -1,0 +1,68 @@
+.free-quote {
+  padding: 118px 0px 240px 0px;
+  position: relative;
+  text-align: start;
+  // .free-quote__container
+
+  &__container {
+    display: flex;
+    column-gap: 45px;
+    padding-left: 39px;
+  }
+
+  // .free-quote__content
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 auto;
+    align-self: center;
+    gap: 22px;
+  }
+
+  // .free-quote__title
+
+  &__title {
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 109%;
+
+    color: #211f54;
+  }
+
+  // .free-quote__text
+
+  &__text {
+    line-height: 143%;
+    &:nth-last-child(1) {
+      padding-bottom: 12px;
+    }
+  }
+
+  // .free-quote__action
+
+  &__action {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    column-gap: 28px;
+  }
+
+  // .free-quote__button
+
+  &__button {
+  }
+
+  // .free-quote__call
+
+  &__call {
+  }
+
+  // .free-quote__image
+
+  &__image {
+    margin-right: -86px;
+    max-width: 720px;
+    max-height: 734px;
+  }
+}
