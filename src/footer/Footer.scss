@@ -1,0 +1,124 @@
+.footer {
+  // .footer__container
+
+  &__container {
+  }
+
+  // .footer__body
+
+  &__body {
+    display: flex;
+    flex-direction: row;
+    border-bottom: 1px solid #eff0f6;
+    text-align: start;
+    column-gap: 40px;
+    justify-content: space-between;
+    padding: 140px 24px;
+  }
+
+  // .footer__info
+
+  &__info {
+    max-width: 360px;
+  }
+
+  // .footer__title
+
+  &__title {
+    font-size: 28px;
+    margin-bottom: 7px;
+  }
+
+  // .footer__text
+
+  &__text {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 167%;
+    color: #6e7191;
+  }
+
+  // .footer__contacts
+
+  &__contacts {
+    max-width: 350px;
+    a {
+      display: block;
+      padding-bottom: 18px;
+      font-weight: 400;
+      font-size: 18px;
+      line-height: 167%;
+      color: #6e7191;
+    }
+  }
+
+  // .footer__subtitle
+
+  &__subtitle {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 110%;
+    color: #211f54;
+    margin-bottom: 28px;
+  }
+
+  &__subtitle-small {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 111%;
+    color: #211f54;
+  }
+
+  // .footer__hours
+
+  &__hours {
+    max-width: 600px;
+  }
+
+  // .footer__estimate
+
+  &__estimate {
+    display: flex;
+    flex-direction: column;
+    max-width: 312px;
+    justify-items: center;
+    gap: 10px;
+  }
+
+  // .footer__button
+
+  &__button {
+    align-self: center;
+    line-height: 1;
+    padding: 18px 30px;
+  }
+
+  // .footer__bot
+
+  &__bot {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 40px 24px;
+  }
+
+  // .footer__rights
+
+  &__rights {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: end;
+    column-gap: 10px;
+    a {
+      color: #0075ff;
+      text-decoration: underline;
+    }
+    a:hover {
+      color: #0052af;
+    }
+    a:visited {
+      color: #003e84;
+    }
+  }
+}
