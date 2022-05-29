@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap");
+
 .wrapper {
   overflow: hidden;
   display: flex;
@@ -67,5 +69,6 @@
     font-size: 16px;
     padding: 18px 30px;
     line-height: 112%;
+    max-width: 176px;
   }
 }
