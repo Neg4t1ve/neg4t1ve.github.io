@@ -18,6 +18,7 @@ export default class Main extends Component {
         </section>
         <section className="description">
           <Description />
+          <div className="separator"></div>
         </section>
         <section className="video-block">
           <VideoBlock />
@@ -33,6 +34,7 @@ export default class Main extends Component {
         </section>
         <section className="differences">
           <Differences />
+          <div className="separator"></div>
         </section>
         <section className="articles">
           <Articles />

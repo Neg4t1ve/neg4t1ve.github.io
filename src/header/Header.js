@@ -11,11 +11,10 @@ export default class Header extends Component {
             <img src={logo} alt="logo" />
           </a>
           <HeaderNavbar />
-          <div className="header__button">
-            <a href="index.html" className="button button_header">
-              Get a free quote
-            </a>
-          </div>
+
+          <a href="index.html" className="button button_header">
+            Get a free quote
+          </a>
         </div>
       </header>
     );

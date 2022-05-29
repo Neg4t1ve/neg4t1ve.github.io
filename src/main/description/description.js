@@ -49,7 +49,6 @@ function Description() {
           Explore services
         </a>
       </div>
-      <div className="separator"></div>
     </div>
   );
 }
