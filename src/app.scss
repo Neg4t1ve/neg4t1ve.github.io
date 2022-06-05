@@ -6,6 +6,12 @@
   flex-direction: column;
   min-height: 100%;
 }
+#root {
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
 [class*="__container"] {
   max-width: 1298px;
   margin: 0 auto;
@@ -13,9 +19,14 @@
   flex: 0 1 auto;
   align-items: center;
 }
+.placeholder {
+  margin-top: 118px;
+  flex: 1 1 auto;
+}
 
 .main {
   flex: 1 1 auto;
+  margin-top: 118px;
 }
 .title {
   font-weight: 700;
@@ -70,5 +81,26 @@
     padding: 18px 30px;
     line-height: 112%;
     max-width: 176px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .title {
+    font-size: 36px;
+  }
+  .button {
+    font-size: 16px;
+  }
+  body {
+    font-size: 18px;
+  }
+  .separator {
+    margin: 190px 39px;
+  }
+}
+
+@media (max-width: 768px) {
+  .separator {
+    margin: 100px 39px;
   }
 }

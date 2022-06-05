@@ -48,3 +48,19 @@
     }
   }
 }
+
+@media (max-width: 1024px) {
+  .call {
+    &__icon {
+      img {
+        height: 70px;
+      }
+    }
+    &__title {
+      font-size: 14px;
+    }
+    &__phone {
+      font-size: 22px;
+    }
+  }
+}

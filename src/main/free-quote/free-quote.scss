@@ -1,5 +1,5 @@
 .free-quote {
-  padding: 118px 0px 240px 0px;
+  margin-bottom: 240px;
   position: relative;
   text-align: start;
   // .free-quote__container
@@ -64,5 +64,49 @@
     margin-right: -86px;
     max-width: 720px;
     max-height: 734px;
+  }
+}
+@media (max-width: 1024px) {
+  .free-quote {
+    margin-bottom: 150px;
+    &__container {
+    }
+    &__image {
+      margin-right: -250px;
+    }
+    &__action {
+      flex-direction: column-reverse;
+      gap: 1.5rem;
+    }
+    &__title {
+      font-size: 36px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .free-quote {
+    margin-bottom: 100px;
+    &__container {
+      max-width: fit-content;
+    }
+    &__image {
+      display: none;
+    }
+    &__action {
+      flex-direction: column-reverse;
+      gap: 1rem;
+    }
+    &__title {
+      font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: 1200px) {
+  .free-quote {
+    &__image {
+      margin-right: -175px;
+    }
   }
 }

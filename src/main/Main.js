@@ -8,6 +8,7 @@ import Areas from "./areas/Areas";
 import Differences from "./differences/Differences";
 import Articles from "./articles/Articles";
 import Request from "./request/Request";
+import Footerbot from "./Footerbot";
 
 export default class Main extends Component {
   render() {
@@ -42,6 +43,7 @@ export default class Main extends Component {
         <section className="request">
           <Request />
         </section>
+        <Footerbot />
       </main>
     );
   }
