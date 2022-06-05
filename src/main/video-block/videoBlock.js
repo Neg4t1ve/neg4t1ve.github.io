@@ -3,6 +3,7 @@ import clients from "../../assets/img/video-block/clients.svg";
 import done from "../../assets/img/video-block/done.svg";
 import employe from "../../assets/img/video-block/employe.svg";
 import placeholder from "../../assets/img/video-block/video-placeholder.svg";
+import Video from "./Video";
 
 function VideoBlock() {
   return (
@@ -40,13 +41,7 @@ function VideoBlock() {
           </div>
         </li>
       </ul>
-      <div className="video-block__video">
-        <img
-          src={placeholder}
-          alt="placeholder"
-          className="video-block__placeholder"
-        />
-      </div>
+      <Video />
       <div className="separator"></div>
     </div>
   );
