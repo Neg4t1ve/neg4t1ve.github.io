@@ -8,9 +8,9 @@ export default class Header extends Component {
     return (
       <header className="header">
         <div className="header__container">
-          <Link to="/" className="header__logo">
+          {/* <Link to="/" className="header__logo">
             <img src={logo} alt="logo" />
-          </Link>
+          </Link> */}
           <HeaderNavbar />
 
           <a href="index.html" className="button button_header">

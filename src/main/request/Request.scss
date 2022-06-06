@@ -70,3 +70,35 @@
     margin: 55px auto;
   }
 }
+
+@media (max-width: 1024px) {
+  .request {
+    margin-top: 100px;
+    &__container {
+      padding-top: 100px;
+      padding-bottom: 100px;
+      flex-direction: column;
+      gap: 30px;
+    }
+    &__text-block {
+      margin-bottom: 1.5rem;
+      width: 100%;
+    }
+  }
+  .separator {
+    // .separator_small
+
+    &_small {
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .request {
+    margin-top: 100px;
+    &__container {
+      padding-top: 50px;
+      padding-bottom: 50px;
+    }
+  }
+}

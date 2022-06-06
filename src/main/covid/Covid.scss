@@ -108,13 +108,14 @@
   .covid {
     &__content {
       max-width: fit-content;
+      padding: 0 1rem;
     }
     &__title {
       font-size: 24px;
     }
     &__container {
       padding: 1rem;
-      justify-content: flex-end;
+      justify-content: space-around;
     }
     &__decor {
       img {

@@ -11,7 +11,7 @@ function Differences() {
           eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad
           minim veniam.
         </h3>
-        <p className="diferrences__text">
+        <p className="differences__text">
           Sed ut perspiciatis unde omnis iste natus error sit atem accusantium
           doloremque laudantiu sed ut.
         </p>

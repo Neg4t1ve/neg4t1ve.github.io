@@ -12,6 +12,7 @@
     min-height: 118px;
     align-items: center;
     padding: 0px 39px;
+    justify-content: space-between;
   }
 
   // .header__logo
@@ -51,5 +52,13 @@
 
   &__link {
     color: #211f54;
+  }
+}
+
+@media (max-width: 768px) {
+  .header {
+    &__container {
+      padding: 0;
+    }
   }
 }

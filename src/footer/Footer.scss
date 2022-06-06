@@ -122,3 +122,48 @@
     }
   }
 }
+
+@media (max-width: 768px) {
+  .footer__body {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+  .footer__hours {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .footer__estimate {
+    margin-top: 1rem;
+  }
+
+  .footer__container {
+    max-width: 768px;
+  }
+  .footer__bot {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer__rights {
+    align-self: flex-end;
+    display: grid;
+    grid-template-rows: 50% 50%;
+    text-align: end;
+    p {
+      margin-bottom: 1rem;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .footer__body {
+    grid-template-columns: 1fr;
+    padding: 2rem 24px;
+  }
+  .footer__contacts {
+    margin-top: 1rem;
+  }
+  .footer__subtitle {
+    margin-bottom: 0.5rem;
+  }
+}

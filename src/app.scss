@@ -103,4 +103,13 @@
   .separator {
     margin: 100px 39px;
   }
+  .title {
+    font-size: 28px;
+  }
+}
+
+@media (max-width: 560px) {
+  .button_header {
+    display: none;
+  }
 }

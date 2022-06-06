@@ -6,7 +6,7 @@ import Services from "./services/Services";
 import Covid from "./covid/Covid";
 import Areas from "./areas/Areas";
 import Differences from "./differences/Differences";
-import Articles from "./articles/Articles";
+// import Articles from "./articles/Articles";
 import Request from "./request/Request";
 import Footerbot from "./Footerbot";
 
@@ -35,15 +35,17 @@ export default class Main extends Component {
         </section>
         <section className="differences">
           <Differences />
-          <div className="separator"></div>
+          {/* <div className="separator"></div> */}
         </section>
-        <section className="articles">
+        {/* <section className="articles">
           <Articles />
-        </section>
+        </section> */}
         <section className="request">
           <Request />
         </section>
-        <Footerbot />
+        <section className="info">
+          <Footerbot />
+        </section>
       </main>
     );
   }
