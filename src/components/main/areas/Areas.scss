@@ -1,0 +1,113 @@
+.areas {
+  margin-top: 200px;
+  // .areas__container
+
+  &__container {
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+  }
+
+  // .areas__image
+
+  &__image {
+    height: 680px;
+    width: 640px;
+    img {
+      height: 100%;
+      width: 100%;
+    }
+  }
+
+  // .areas__content
+
+  &__content {
+    text-align: start;
+  }
+
+  // .areas__title
+
+  &__title {
+  }
+
+  // .areas__description
+
+  &__description {
+    margin: 19px 0 26px 0;
+  }
+
+  // .areas__list
+
+  &__list {
+  }
+
+  // .areas__button
+
+  &__button {
+  }
+}
+
+.areas-list {
+  column-count: 2;
+  margin-bottom: 48px;
+  // .areas-list__item
+
+  &__item {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 111%;
+    color: #211f54;
+    text-align: start;
+    &:not(:last-child) {
+      margin-bottom: 27px;
+    }
+    &::before {
+      content: "";
+      margin-right: 8px;
+      padding: 13px;
+      background: url("../../../assets/img/icon/check-icon.svg") 50% 50%
+        no-repeat;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .areas {
+    margin-top: 150px;
+    &__image {
+      width: 440px;
+    }
+  }
+  .areas-list {
+    column-gap: 2rem;
+  }
+}
+
+@media (max-width: 896px) {
+  .areas {
+    &__image {
+      width: 380px;
+    }
+  }
+}
+
+@media (max-width: 768px) {
+  .areas {
+    margin-top: 100px;
+    &__image {
+      display: none;
+    }
+    &__description {
+      margin: 1rem auto;
+    }
+    &__container {
+      padding: 0.3rem;
+    }
+  }
+  .areas-list {
+    column-gap: 1rem;
+    &__item {
+      width: 150px;
+    }
+  }
+}
