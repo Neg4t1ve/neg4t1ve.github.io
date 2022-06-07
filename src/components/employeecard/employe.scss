@@ -1,0 +1,43 @@
+.Employee-photo {
+  display: block;
+  align-self: center;
+  width: 294px;
+  height: 294px;
+  margin-bottom: 1rem;
+  img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+    border-radius: 30%;
+  }
+}
+
+.WorkerCard {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+}
+.Employe-name {
+  margin: 0;
+  text-transform: capitalize;
+  margin-bottom: 0.5rem;
+}
+.Employe-position {
+  margin: 0;
+  color: #48484a;
+  text-transform: capitalize;
+}
+
+.cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.frame {
+  border: 1px solid #c1c1c8;
+  border-radius: 20px;
+}
